@@ -92,6 +92,10 @@ html {
     background-image: url('../img/bg/lines.svg');
 }
 
+#details {
+    padding: 8% 0 8% 0;
+}
+
 .category-container {
     display: flex;
     flex-direction: column;
@@ -114,6 +118,19 @@ html {
     opacity: 0.5;
     font-size: 32px;
     font-family: 'Staatliches';
+}
+
+.details-description {
+    width: 530px;
+    height: 513px;
+    padding: 50px;
+    background: linear-gradient(103.26deg, rgba(216, 184, 255, 0.1) -21.04%, rgba(129, 71, 204, 0.1) 114.55%);
+}
+
+.details-description p {
+    font-family: 'Questrial', sans-serif;
+    font-size: 16px;
+    color: rgb(179, 179, 179);
 }
 
 @media only screen and (min-width: 768px) {
