@@ -1,0 +1,124 @@
+/* FONTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100&display=swap');
+
+@font-face {
+    font-family: 'Questrial';
+    src: url('../fonts/Questrial-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Staatliches';
+    src: url('../fonts/Staatliches-Regular.ttf') format('truetype');
+}
+
+
+body,
+html {
+    background-color: #20142f;
+}
+
+.divider-150 {
+    height: 150px;
+}
+
+.divider-50 {
+    height: 50px;
+}
+
+.divider-25 {
+    height: 25px;
+}
+
+.logo-box {
+    width: 527px;
+    height: 122px;
+    background: linear-gradient(92.9deg,
+            rgba(134, 197, 255, 0.08) 0%,
+            rgba(207, 231, 254, 0.08) 120.94%);
+    border: 1px solid #86c5ff;
+
+}
+
+.unique-cyborgs-header {
+    color: #D8B8FF;
+    font-size: 32px;
+    font-family: 'Staatliches';
+}
+
+
+.unique-cyborgs-box {
+    width: 646px;
+    height: 226px;
+    background: linear-gradient(103.26deg, rgba(216, 184, 255, 0.1) -21.04%, rgba(129, 71, 204, 0.1) 114.55%);
+}
+
+.unique-cyborgs-text {
+    color: white;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 20px;
+}
+
+.carousel-inner {
+    background: linear-gradient(0deg, rgba(37, 24, 54, 0.36), rgba(37, 24, 54, 0.36));
+    border: 1px solid #D8B8FF;
+}
+
+.mintlabs-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-container {
+    color: transparent !important;
+    border: 1px solid #FFFFFF;
+    border-radius: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+}
+
+.left {
+    background-image: url('../img/bg/circler.svg');
+}
+
+#about {
+    padding: 8% 0 8% 0;
+    border-top: 1px solid #D8B8FF;
+    border-bottom: 1px solid #D8B8FF;
+    background-image: url('../img/bg/lines.svg');
+}
+
+.category-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 415px;
+    height: 193px;
+    border: 1px solid #FFFFFF;
+    background: linear-gradient(181.61deg, rgba(255, 255, 255, 0.05) 1.36%, rgba(255, 255, 255, 0) 218.8%);
+}
+
+.category-heading {
+    color: rgb(221, 221, 221);
+    font-size: 32px;
+    font-family: 'Staatliches';
+}
+
+.category-subheading {
+    color: white;
+    opacity: 0.5;
+    font-size: 32px;
+    font-family: 'Staatliches';
+}
+
+@media only screen and (min-width: 768px) {
+    nav {
+        padding-left: 10% !important;
+        padding-right: 10% !important;
+    }
+}
