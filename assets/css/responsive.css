@@ -42,7 +42,7 @@
     .kalao {
         display: flex;
         align-items: center;
-        justify-content: end;
+        justify-content: start;
     }
 }
 
