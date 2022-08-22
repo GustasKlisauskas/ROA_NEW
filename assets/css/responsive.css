@@ -73,6 +73,9 @@
     .categories {
         display: flex;
         flex-direction: column;
+    }
+
+    .categories>.col {
         padding-bottom: 25px;
     }
 
