@@ -1,0 +1,22 @@
+@media only screen and (min-width: 768px) {
+    nav {
+        padding-left: 10% !important;
+        padding-right: 10% !important;
+    }
+
+    .logo-box {
+        width: 527px;
+        height: 122px;
+    }
+
+    .details-collapse button {
+        width: 581px;
+        height: 104px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .logo-box {
+        width: 100%;
+    }
+}
