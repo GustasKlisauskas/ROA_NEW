@@ -48,7 +48,7 @@ html {
 }
 
 .unique-cyborgs-box {
-    
+
     background: linear-gradient(103.26deg, rgba(216, 184, 255, 0.1) -21.04%, rgba(129, 71, 204, 0.1) 114.55%);
 }
 
@@ -211,4 +211,44 @@ html {
     font-size: 1.5rem;
     color: white;
     line-height: 2;
+}
+
+.character-stats-container,
+.character-stats-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.character-stats-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.character-stats-basic {
+    background: linear-gradient(92.9deg, rgba(134, 197, 255, 0.08) 0%, rgba(207, 231, 254, 0.08) 120.94%);
+    border: 1px solid #86C5FF;
+}
+
+.character-stats-gold {
+    background: linear-gradient(92.9deg, rgba(255, 184, 101, 0.08) 0%, rgba(244, 233, 175, 0.08) 120.94%);
+    border: 1px solid #F37215;
+}
+
+.character-stats-header h3 {
+    font-family: 'Staatliches', sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+    color: white;
+}
+
+.character-stats-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 8%;
+    padding: 15px 25px 15px 25px;
+    border: 1px solid #86C5FF;
+    background: linear-gradient(163.54deg, rgba(27, 146, 255, 0.05) 1.3%, rgba(255, 255, 255, 0.05) 97.64%);
 }
