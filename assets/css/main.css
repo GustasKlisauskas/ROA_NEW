@@ -98,7 +98,6 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
     border: 1px solid #FFFFFF;
     background: linear-gradient(181.61deg, rgba(255, 255, 255, 0.05) 1.36%, rgba(255, 255, 255, 0) 218.8%);
 }

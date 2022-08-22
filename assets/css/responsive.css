@@ -69,4 +69,15 @@
         width: 100%;
     }
 
+    .advanced-smart {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .kalao {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
