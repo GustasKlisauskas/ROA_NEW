@@ -13,10 +13,20 @@
         width: 581px;
         height: 104px;
     }
+
+    .unique-cyborgs-box {
+        width: 646px;
+    height: 226px;
+    }
 }
 
 @media only screen and (max-width: 768px) {
     .logo-box {
+        width: 100%;
+    }
+
+    .unique-cyborgs-box {
+        padding: 15px;
         width: 100%;
     }
 }
