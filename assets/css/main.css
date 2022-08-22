@@ -116,8 +116,6 @@ html {
 }
 
 .details-description {
-    width: 530px;
-    height: 513px;
     padding: 50px;
     background: linear-gradient(103.26deg, rgba(216, 184, 255, 0.1) -21.04%, rgba(129, 71, 204, 0.1) 114.55%);
 }
