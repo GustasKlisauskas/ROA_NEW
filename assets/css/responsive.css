@@ -27,6 +27,23 @@
     .icon-container img {
         width: 35px;
     }
+
+    .category-container {
+        width: 415px;
+        height: 193px;
+    }
+
+    .advanced-smart {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+    }
+
+    .kalao {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -46,5 +63,21 @@
 
     .icon-container img {
         width: 25px;
+    }
+
+    .category-container {
+        width: 100%;
+    }
+
+    .advanced-smart {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .kalao {
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
