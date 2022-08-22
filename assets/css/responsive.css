@@ -125,6 +125,10 @@
         justify-content: center;
     }
 
+    .character-stats-container {
+        margin-bottom: 45px;
+    }
+
     .character-stats-header {
         width: 100%;
         height: 76px;
