@@ -49,6 +49,13 @@
         width: 530px;
         height: 513px;
     }
+
+    .poweredby-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -99,5 +106,12 @@
     .details-description {
         width: 100%;
         height: 610px;
+    }
+
+    .poweredby-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 }
