@@ -255,7 +255,7 @@ html {
 
 .heading-basic {
     font-family: 'Staatliches', sans-serif;
-    font-weight: 700;
+    font-weight: 500;
     color: white;
 }
 
@@ -284,4 +284,11 @@ html {
 
 .purple-row {
     background: #F3EBFD !important;
+}
+
+/* CARD RESET */
+
+.fees-card {
+    border: 1px solid #D8B8FF !important;
+    background-color: transparent !important;
 }
