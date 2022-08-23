@@ -148,6 +148,14 @@
         width: 100%;
         height: 400px;
     }
+
+    .partners-banner {
+        height: 650px;
+    }
+
+    #moto {
+        height: 320px;
+    }
 }
 
 @media (min-width:768px) {
