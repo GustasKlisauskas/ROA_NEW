@@ -155,10 +155,15 @@ html {
     line-height: 2;
     opacity: 0.8;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background: linear-gradient(103.26deg, #3A2C4A -21.04%, #3D2061 114.55%);
     padding: 40px 20px 40px 20px;
+}
+
+.card-text ul {
+    list-style: none;
 }
 
 .accordion-item {
@@ -183,6 +188,10 @@ html {
     font-family: 'Questrial', sans-serif;
     font-size: 16px;
     line-height: 2;
+}
+
+.accordion-body ul {
+    list-style: none;
 }
 
 .accordion-button::after {
@@ -348,3 +357,7 @@ html {
 .team-card>.card-body {
     border: 0px !important;
 }
+
+/* ****************** */
+/* *****DETAILS****** */
+/* ****************** */
