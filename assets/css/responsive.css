@@ -73,10 +73,11 @@
     }
 
     #details {
-        background-image: url(../img/bg/leftPlayer.svg);
-        background-position: left;
+        background-image: url('../img/bg/leftPlayer.svg'), url('../img/bg/cleopatraBG.svg');
+        background-position: left, right;
         background-repeat: no-repeat;
-        background-position-y: -400px;
+        background-size: contain, 260px;
+        background-position-y: -400px, 300px;
     }
 }
 
