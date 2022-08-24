@@ -78,7 +78,7 @@ html {
     align-items: center;
 }
 
-.left {
+#introduction {
     background-image: url('../img/bg/circler.svg');
 }
 
