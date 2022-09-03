@@ -107,6 +107,18 @@
         border-top: 1px solid #e2e2e2;
         border-bottom: 1px solid #e2e2e2;
     }
+
+    .timeline-card-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        align-content: center;
+        height: 220px;
+        padding-top: 15px;
+        border-top: 1px solid #e2e2e2;
+        border-bottom: 1px solid #e2e2e2;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -183,6 +195,13 @@
     .fees-card {
         width: 100%;
         height: 400px;
+    }
+
+    .timeline-card {
+        width: 100%;
+        height: fit-content;
+        border: 1px solid #D8B8FF !important;
+        background-color: transparent !important;
     }
 
     .partners-banner {
