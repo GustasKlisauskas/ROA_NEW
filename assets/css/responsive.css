@@ -75,9 +75,19 @@
     #details {
         background-image: url('../img/bg/leftPlayer.svg'), url('../img/bg/cleopatraBG.svg');
         background-position: left, right;
+        background-attachment: scroll, scroll;
         background-repeat: no-repeat;
         background-size: contain, 260px;
         background-position-y: -400px, 300px;
+    }
+
+    #character-stats {
+        background-image: url('../img/bg/robotArm.svg');
+        background-position: left;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: contain, 260px;
+        background-position-y: -170px, 100px;
     }
 
     .carousel-item img {

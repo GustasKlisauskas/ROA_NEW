@@ -87,6 +87,10 @@ strong {
     background-image: url('../img/bg/circler.svg');
 }
 
+#character-stats {
+    padding-top: 5%;
+}
+
 #about, #poweredby, #coin, #partners {
     padding: 8% 0 8% 0;
     border-top: 1px solid #D8B8FF;
