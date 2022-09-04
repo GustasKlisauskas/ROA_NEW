@@ -208,6 +208,15 @@
         height: 650px;
     }
 
+    #partners {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    #team {
+        margin-top: 50px;
+    }
+
     #moto {
         height: 320px;
     }
